@@ -1,0 +1,62 @@
+.package-list {
+	margin: 100px calc(50% - 330px) 0;
+}
+
+.package-controls {
+	margin-bottom: 20px;
+}
+
+button:first-child {
+	margin-right: 5px;
+}
+
+.package-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 10px;
+	height: 340px;
+	padding: 10px 0 10px 10px;
+	border: 1px solid #000;
+	overflow-y: scroll
+}
+
+.package-card {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.package-title {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.package-card:hover .package-title{
+	background-color: #79d4f9;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.package-title.highlighted {
+  background-color: #baebff;
+ 	border-radius: 15px 15px 0px 0px;
+}
+
+hr {
+	margin-top: 0;
+}
+
+.package-body {
+	padding: 0 10px;
+}
+
+.package-body-item {
+	color: #494646;
+}
+
+.package-item-icon {
+	margin-left: 5px;
+}
